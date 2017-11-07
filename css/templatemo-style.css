@@ -227,6 +227,23 @@ button:focus { outline: none; }
 	color: white;
 }
 
+.Category1 div {
+	background: transparent;
+    border: 2px solid #007799;    
+    border-radius: 50px;
+    color: #007799;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Category1 div:hover,
+.Category1 div:focus {
+	background: #007799;
+	color: #FFFFFF;
+}
+
 .tm-green-btn {
 	background: #006666;
 	border: 2px solid #006666;
