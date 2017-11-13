@@ -168,6 +168,12 @@ button:focus { outline: none; }
 	padding: 80px 80px;
 }
 
+.btn-lg-categories {
+	font-size: 1.00rem;
+	font-weight: 150;
+	padding: 5px 1px;
+}
+
 .tm-gray-btn {  
   background-color: #666666;
   border: 2px solid #666666;
@@ -227,23 +233,6 @@ button:focus { outline: none; }
 	color: white;
 }
 
-.Category1 div {
-	background: transparent;
-    border: 2px solid #007799;    
-    border-radius: 50px;
-    color: #007799;
-    margin: 10px;
-    padding:10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.Category1 div:hover,
-.Category1 div:focus {
-	background: #007799;
-	color: #FFFFFF;
-}
-
 .tm-green-btn {
 	background: #006666;
 	border: 2px solid #006666;
@@ -261,6 +250,7 @@ button:focus { outline: none; }
 	border: 2px solid #006666;
 	color: #006666;
 }
+
 
 .tm-green-bordered-btn:hover,
 .tm-green-bordered-btn:focus {
@@ -442,6 +432,69 @@ body.page-2 { padding-top: 80px; }
 	        flex-wrap: wrap;
 }
 
+.Title {
+	margin-left: 37%;
+}
+
+.CategoryName {
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+  	margin-bottom: 1.0em;
+}
+
+.Category1 {
+	display: inline-block;
+	margin-left: 1.0em;
+}
+
+.Category1 li {
+	background: transparent;
+    border: 2px solid #666666;    
+    border-radius: 10px;
+    color: #666666;
+    margin-bottom: 5px;
+    padding-left:55px;
+    padding-right:55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Category1 li:hover,
+.Category1 li:focus {
+	background: lightgrey;
+    color: #000000;
+}
+
+.Category2 div {
+	background: transparent;
+    border: 2px solid #007799;    
+    border-radius: 50px;
+    color: #007799;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Category2 div:hover,
+.Category2 div:focus {
+	background: #007799;
+	color: #FFFFFF;
+}
+
+.video {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
 .tm-flex-right {
 	float: right;
 }
@@ -465,6 +518,8 @@ body.page-2 { padding-top: 80px; }
 .tm-description-box { padding: 6%; }
 .tm-description-text { margin-bottom: 1.5em; }
 .tm-footer-text { margin-bottom: 1.5rem; }
+
+
 
 @media (min-width: 768px) {
 
@@ -584,3 +639,203 @@ body.page-2 { padding-top: 80px; }
 		min-height: 600px;
 	}
 }
+
+/* 
+	Player 
+			*/
+.player-songs-info-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.player-album-art {
+	padding-bottom: 1%;
+}
+
+.player-album-art img {
+	width: 300px;  
+  	height: 300px;
+}
+
+.player-song-info {
+	color: grey;
+}
+
+#player-song-name {
+	font-size: 19px;
+	color: darkgrey;
+	font-weight: bold;
+}
+
+.volume-bar {
+	margin-top: 5px;
+	margin-left: 32%;
+	display: inline-block;
+}
+
+.volume-container {
+	display: inline-block;
+	margin-right: 25px;
+	vertical-align: middle;
+}
+
+.volume-level {
+	width: 50px;
+	height: 15px;
+	margin: 3px;
+  	border: 1px solid black;
+  	border-radius: 20px;
+  	transition: opacity ease-in-out 1s;
+  	display: inline-block;
+  	margin-top: 10px;
+  	background-color: white;
+}
+
+#vl0.on {background-color: grey;}
+#vl1.on {background-color: grey;}
+#vl2.on {background-color: grey;}
+#vl3.on {background-color: grey;}
+#vl4.on {background-color: grey;}
+#vl5.on {background-color: grey;}
+
+.volume-rocker {
+	width: 100%;
+	text-align: center;
+	margin-left: 2.5%;
+}
+
+#volDown {
+	display: inline-block;
+	margin-right: 5%;
+	width: 100px;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	text-align: center;
+}
+
+#volUp {
+	margin-left: 5%;
+	width: 100px;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	text-align: center;
+}
+
+.player-controls{
+	width: 100%;
+  	text-align: center;
+}
+
+#player-bar {
+	margin-left: 1.5%;
+	margin-bottom: 3%;
+}
+
+#time-elapsed {
+	float: left;
+	margin-left: 20%;
+}
+
+#time-total{
+	display: inline-block;
+	float: right;
+	margin-right: 20%;
+}
+
+.material-icons.volume { 
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	vertical-align: middle;
+ }
+
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 24px; 
+    display: inline-block;
+}
+
+/* CSS Document */
+#canvas #food{
+	background:orange;
+}
+#canvas #snakeHead{
+	background:green
+}
+#canvas{
+	position:relative;
+	background:grey;
+	margin:auto;
+	width:600px;
+	height:400px;
+}
+#canvas div{
+	border:0px;
+	position:absolute;
+	background:#F00;
+	width:20px;
+	height:20px;
+	border-radius:10px
+}
+
+#screen {
+	border: 2px solid black;
+	margin-top: 5%;
+	text-align: center;
+	margin-left: 10%;
+}
+
+.startbutton {
+	margin-left: 43%;
+}
+
+#appendArea {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.appendborder {
+	width: 83%;
+	padding: 5%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-left: 8.5%;
+}
+
+#stufftoadd {
+	width: 83%;
+	height: 15%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.Tags {
+	text-align: center;
+	margin-top: -10px;
+}
+
+.subtitle {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -10px;
+}
+
+.RecordButton {
+	margin-top: 3%;
+}
+
+.Recordbox {
+	width: 40%;
+	height: 40%;
+	border: 2px solid black;
+	padding: 3%;
+	padding-right: 6%;
+	padding-top: 3%;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
