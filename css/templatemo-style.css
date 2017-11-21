@@ -815,6 +815,21 @@ body.page-2 { padding-top: 80px; }
 .Tags {
 	text-align: center;
 	margin-top: -10px;
+	width: 50%;
+    float:left;
+    
+
+
+}
+
+.Tags1 {
+	text-align: center;
+	margin-top: -10px;
+	width: 50%;
+    float:left;
+    
+
+    
 }
 
 .subtitle {
