@@ -854,3 +854,41 @@ body.page-2 { padding-top: 80px; }
 	margin-left: 10%;
 }
 
+.tm-intro-link2 {
+ background: transparent; 
+ border: 2px solid #007799;
+ border-radius: 50px;
+ width: 200px;
+ margin: 10px;
+    padding:10px;
+ color: #007799;
+ display: inline-block;
+    padding: 15px 60px;
+    text-align: center;
+    font-weight: bold;    
+}
+
+.tm-intro-link2:hover,
+.tm-intro-link2:focus {
+ background: #007799;
+ color: #FFFFFF;
+}
+
+.Category3 div {
+ background: white;
+    border: 0px solid #666666; 
+    border-radius: 0px;
+    color: #666666;
+    margin: 6px;
+    padding-left:25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /*text-align: center;*/
+}
+
+.Category3 div:hover,
+.Category3 div:focus {
+ background: #666666;
+ color: white;
+}
+
