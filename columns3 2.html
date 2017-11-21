@@ -43,12 +43,11 @@ http://www.templatemo.com/tm-483-lumino
                             <a class="nav-link external" href="columns2.html">Relaxing Lab</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link external" href="columns3.html">Daily Mental Recording</a>
+                            <a href="#top" class="nav-link">Daily Mental Recording</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#top" class="nav-link">Log In</a>
+                            <a class="nav-link external" href="columns4.html">Log In</a>
                         </li>
-                       
                     </ul>
                 </div>
             </nav>
@@ -56,58 +55,52 @@ http://www.templatemo.com/tm-483-lumino
         </div>
     
         <div class="container-fluid">
-      
-            <div class="row gray-bg">
 
-                <section id="tm-section-2" class="tm-section">
-                    <div class="col-md-12">
+            <div class="row">
+              <div id="tm-section-1" class="tm-section">
+                <div class="col-md-12">
+                    <h1 class="text-xs-center blue-text tm-page-2-title">Daily Mental Recording</h1>
+                    <p class="text-xs-center tm-page-2-p tm-page-2-subtitle">
+                        Use the simple process of mental recording to record your feelings daily.
+                    </p>
+                    <div class="Tags">
+                        <button id="textchanger" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Happy">Happy</button> 
+                        <button id="textchanger1" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Lonely">Lonely</button> 
+                        <button id="textchanger2" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Depressed">Depressed</button> 
+                        <button id="textchanger3" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Anxious">Anxious</button> 
+                        <button id="textchanger4" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Frustrated">Frustrated</button> 
+                        <button id="textchanger5" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Hopeful">Hopeful</button> 
+                        <button id="textchanger6" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Relaxed">Relaxed</button> 
+                        <button id="textchanger7" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Confident">Confident</button>   
+                        <button id="textchanger8" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Satisfied">Satisfied</button>
+                        <button id="textchanger9" class="btn btn-default tm-normal-btn tm-blue-bordered-btn" value="Angry">Angry</button> 
 
-                        <h2 class="blue-text tm-title3 text-xs-center">Log In</h2>
-                      
-                        <div class="text-xs-center">
-                            <form action="columnn4.html" method="post" class="tm-contact-form">                                
-                                <div class="form-group">
-                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Email"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Password"  required/>
-                                </div>
-                                <!--
-                                <div class="form-group">
-                                    <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
-                                </div>
-                                -->
-                              <button type="submit" class="btn tm-light-blue-bordered-btn">Log In</button> 
-                                  
-                                <a href="register.html" button type="submit" class="btn tm-light-blue-bordered-btn">
-                                 
-                                Register</a></button>                       
-                            </form>   
-                        </div> <!-- col -->
-                        
-                       
-                    </div>                    
-                </section>
+                        </div>
 
-                <!-- footer -->
-                <footer class="tm-footer">                
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <p class="text-xs-center tm-footer-text">Copyright &copy; 2017 Mental Studio</p>                    
-                    </div>                
-                </footer>  
 
-            </div> <!-- row -->
-
+                        <div class="Tags1">
+                        <p id="appendArea">Choose Your Emotion Tags and Click it: </p>
+                        <div class="appendborder" placeholder="Tags!">
+                        <p id="appendAreaText"></p>
+                        </div>      
+                        <input id="stufftoadd" type=text placeholder="Type Here!"> 
+                    </div> 
+                    <div class="Tags1">
+                        <a href="Recordresult.html" class="btn btn-default tm-normal-btn tm-blue-bordered-btn RecordButton">Record</a>
+                    </div>
+                </div>
+              </div>                
+            </div>
+            
         </div> <!-- .container -->
+        
 
         <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
         <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script> <!-- Tether for Bootstrap, http://stackoverflow.com/questions/34567939/how-to-fix-the-error-error-bootstrap-tooltips-require-tether-http-github-h --> 
         <script src="js/bootstrap.min.js"></script>                 <!-- Bootstrap (http://v4-alpha.getbootstrap.com/) -->
         <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->           
-
+        <script src="js/Record.js"></script>
+    
         <!-- Templatemo scripts -->
         <script>     
          
